@@ -1,8 +1,17 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+}
 
 .wrap { 
     padding: 25px; 
     text-align: center; 
     box-shadow: 0 4px 25px -4px #9da5ab; 
+    background-color: #9da5ab;
 }
 article { 
     padding: 25px 0; 

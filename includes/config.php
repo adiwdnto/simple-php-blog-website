@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'My First PHP Web',
         'site_url' => '',
         'pretty_uri' => true,
         'nav_menu' => [
@@ -16,6 +16,12 @@ function config($key = '')
             'about-us' => 'About Us',
             'products' => 'Products',
             'contact' => 'Contact',
+            'news' => 'News',
+        ],
+        'headline' => [
+            'headline-1' => 'Headline 1',
+            'headline-2' => 'Headline 2',
+            'headline-3' => 'Headline 3',
         ],
         'template_path' => 'template',
         'content_path' => 'content',

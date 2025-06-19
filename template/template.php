@@ -20,7 +20,11 @@
     <article>
         <h2><?php page_title(); ?></h2>
         <?php page_content(); ?>
+        <headline>
+            <?php headline_print(); ?>
+        </headline>
     </article>
+
 
     <footer>
         <small>&copy;<?php echo date('Y'); ?> <?php site_name(); ?>.<br><?php site_version(); ?></small>

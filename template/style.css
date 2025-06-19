@@ -1,8 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
-    color: #333;
-    background-color: #333;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -17,6 +16,16 @@ article {
     padding: 25px 0; 
     line-height: 150%; 
     text-align: left; 
+    color: #fff;
+    font-size: 20px;
+}
+
+headline { 
+    padding: 25px 0; 
+    line-height: 150%; 
+    text-align: left; 
+    color: #ffffff;
+    font-size: 20px;
 }
 
 nav .item {
@@ -36,4 +45,3 @@ nav .active {
         padding: 30px 40px;
     }
 }
-    

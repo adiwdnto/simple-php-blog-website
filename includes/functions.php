@@ -44,6 +44,18 @@ function nav_menu($sep = ' | ')
     echo trim($nav_menu, $sep);
 }
 
+function headline_print()
+{
+    $headline_print = '';
+    $headline_item = config('headline');
+    
+    foreach ($headline_item as $item => $name) {
+        $headline_print .= '<div>'.$name.'</div>';
+    }
+
+    echo trim($headline_print);
+}
+
 /**
  * Displays page title. It takes the data from
  * URL, it replaces the hyphens with spaces and

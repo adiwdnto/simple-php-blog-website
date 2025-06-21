@@ -18,11 +18,22 @@ function config($key = '')
             'contact' => 'Contact',
             'news' => 'News',
         ],
-        'headline' => [
-            'headline-1' => 'Headline 1',
-            'headline-2' => 'Headline 2',
-            'headline-3' => 'Headline 3',
+        // Combine headline_title and headline_img into one 'headlines' array
+        'headlines' => [
+            'headline-1' => [
+                'title' => 'Headline 1',
+                'img'   => 'headline-1-img.jpg',
+            ],
+            'headline-2' => [
+                'title' => 'Headline 2',
+                'img'   => 'headline-1-img.jpg',
+            ],
+            'headline-3' => [
+                'title' => 'Headline 3',
+                'img'   => 'headline-1-img.jpg',
+            ],
         ],
+
         'template_path' => 'template',
         'content_path' => 'content',
         'version' => 'v3.1',

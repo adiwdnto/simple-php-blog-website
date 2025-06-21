@@ -47,10 +47,14 @@ function nav_menu($sep = ' | ')
 function headline_print()
 {
     $headline_print = '';
-    $headline_item = config('headline');
-    
-    foreach ($headline_item as $item => $name) {
-        $headline_print .= '<div>'.$name.'</div>';
+    $headlines = config('headlines');
+
+    foreach ($headlines as $item => $data) {
+        $img_url = config('site_url') . '/' . config('content_path') . '/img/' . $data['img'];
+        $headline_print .= '<div class="headline-item">';
+        $headline_print .= '<img src="' . $img_url . '" width="150" height="100">';
+        $headline_print .= '<div>' . $data['title'] . '</div>';
+        $headline_print .= '</div>';
     }
 
     echo trim($headline_print);

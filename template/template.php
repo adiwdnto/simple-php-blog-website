@@ -15,9 +15,7 @@
         <nav class="menu">
             <?php nav_menu(); ?>
         </nav>
-        <headline>
-            <?php headline_print(); ?>
-        </headline>
+        <?php headline_print(); ?>
     </header>
 
     <article>

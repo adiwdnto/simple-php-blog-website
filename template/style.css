@@ -20,12 +20,14 @@ article {
     font-size: 20px;
 }
 
-headline { 
-    padding: 25px 0; 
-    line-height: 150%; 
-    text-align: left; 
-    color: #ffffff;
-    font-size: 20px;
+.headline-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    background: #222;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
 }
 
 nav .item {

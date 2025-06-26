@@ -23,14 +23,17 @@ function config($key = '')
             'headline-1' => [
                 'title' => 'Headline 1',
                 'img'   => 'headline-1-img.jpg',
+                'url'   => '/article/headline-1',
             ],
             'headline-2' => [
                 'title' => 'Headline 2',
                 'img'   => 'headline-1-img.jpg',
+                'url'   => '/article/headline-1',
             ],
             'headline-3' => [
                 'title' => 'Headline 3',
                 'img'   => 'headline-1-img.jpg',
+                'url'   => '/article/headline-1',
             ],
         ],
 
